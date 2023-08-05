@@ -1,0 +1,60 @@
+.ana-kutu {
+ display: flex;
+ gap: 15px;
+ padding: 10px;
+ background-color: black;
+ 
+}
+
+.kutu-1{
+background-color:  yellow;
+flex: 2 0 200px;
+padding: 10px;
+gap: 15px;
+display: flex;
+flex-direction: column;
+}
+
+.kutu1-1 {
+   display: flex;
+    flex: 1;
+    background-color: greenyellow;
+    align-items: center;
+justify-content: center;
+}
+.kutu1-2 {
+   display: flex;
+ flex: 3;
+    background-color: rgb(203, 126, 32);
+    align-items: center;
+justify-content: center;
+
+}
+
+.kutu-2{
+  display: flex;
+ background-color: bisque;
+ flex: 1 0 50px;
+align-items: center;
+justify-content: center;
+ 
+}
+
+.kutu-3{
+background-color: red;
+flex: 2 0 200px;
+padding: 10px;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 15px;
+align-items: center;
+justify-content:space-around;
+
+
+}
+
+.kutu-3 > div{
+ padding: 20px;
+background-color: blue;
+
+}
