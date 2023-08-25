@@ -1,0 +1,38 @@
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar .logo {
+    font-size: 2rem;
+    color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 1px 4px rgb(170, 164, 164);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar h1 {
+    color: rgb(3, 6, 175);
+    font-weight: normal;
+}
+
+@media screen and (min-width:768px) {
+    .search-bar {
+        background-image: url("./img/youtube.svg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+        .search-bar .input-group{
+            width: 600px;
+        }
+}
